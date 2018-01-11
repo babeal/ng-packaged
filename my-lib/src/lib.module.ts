@@ -2,10 +2,11 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooComponent } from './foo/foo.component';
 import { BarService } from './bar/bar.service';
+import { SharedModule } from './shared/index';
 
 @NgModule({
   imports: [
-    CommonModule
+    SharedModule
   ],
   declarations: [
     FooComponent
